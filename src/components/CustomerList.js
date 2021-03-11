@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import customers from './data';
 import Filter from './Filter';
 import CustomerRow from './CustomerRow';
+import FilterByCity from './FilterByCity';
 
 export default class CustomerList extends Component {
     state={
@@ -11,6 +12,7 @@ export default class CustomerList extends Component {
         return (
             <div>
                 <Filter/>
+                <FilterByCity/>
                 <h1> Customer List</h1>
                 {
                     this.state.customers.map(c=><CustomerRow customer={c} key={c.id} delEvent ={(id)=> this.deleteCustomer(id) }/>)
