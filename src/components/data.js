@@ -1,5 +1,4 @@
-const customers={
-    "customers":[
+const customers=[
         {"id":1,"Name":"Albin","Gender":"Male","Address":"Bangalore"},
         {"id":2,"Name":"Charan","Gender":"Male","Address":"Bangalore"},
         {"id":3,"Name":"Mahesh","Gender":"Male","Address":"Vizag"},
@@ -13,8 +12,8 @@ const customers={
         {"id":11,"Name":"Venkat","Gender":"Male","Address":"Chikamagaluru"},
         {"id":12,"Name":"Ananya","Gender":"Female","Address":"Chikamagaluru"},
         {"id":13,"Name":"Dheeraj","Gender":"Male","Address":"Kolar"},
-        {"id":13,"Name":"Jaideep","Gender":"Male","Address":"Gulbarga"}
+        {"id":14,"Name":"Jaideep","Gender":"Male","Address":"Gulbarga"}
 
-    ]
-};
+    ];
+
 export default customers;

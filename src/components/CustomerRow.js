@@ -8,7 +8,12 @@ export default class CustomerRow extends Component {
                 <span>{Name}</span>
                 <span>{Gender}</span>
                 <span>{Address}</span>
+                <button type="button" onClick={()=>this.deleteRow(id)}>&times;</button>
             </div>
         )
+    }
+    deleteRow(id){
+        console.log("deleting row "+id)
+        this.props.delEvent(id);
     }
 }
